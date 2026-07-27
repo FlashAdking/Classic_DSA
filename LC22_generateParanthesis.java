@@ -14,9 +14,7 @@ class Solution {
             return;
         }
 
-        if( open > n){
-            return;
-        } 
+        if( open > n) return; 
 
         // add open
         validParenthesis(n , open+1 , str.append("(") , answer);
